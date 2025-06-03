@@ -38,7 +38,7 @@ Introducir los conceptos fundamentales del lenguaje Dart para poder construir in
 4. ⚠️ [Manejo de errores](https://dart.dev/language/error-handling)  
    Explica `try`, `catch`, `finally`, errores sincrónicos y asincrónicos.
 
-5. 🧼 [Effective Dart: Design](https://dart.dev/effective-dart/design) (Muy recomendado)  
+5. 🧼 [Effective Dart: Design](https://dart.dev/effective-dart/design) (Opcional - Muy recomendado)  
    Guía de buenas prácticas, estilo limpio y recomendaciones de diseño.
 
 ---
@@ -53,7 +53,7 @@ Introducir los conceptos fundamentales del lenguaje Dart para poder construir in
 ---
 
 ## 🧪 Próximamente: Ejercicio práctico
-En el archivo `main.dart`, se te pedirá que simules una consulta asincrónica de perfil de usuario con manejo de errores y null safety.
+En el archivo `challenge.dart`, se te pedirá que simules una consulta asincrónica de perfil de usuario con manejo de errores y null safety.
 
 Cuando termines, podrás comparar tu solución con la carpeta `solution/`.
 
