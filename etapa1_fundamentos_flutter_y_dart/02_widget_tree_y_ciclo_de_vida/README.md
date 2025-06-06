@@ -108,6 +108,8 @@ Tu objetivo será:
 - Explicarlo
 - Corregirlo respetando buenas prácticas
 
+Nombre del archivo: `diagnostico_widget_tree.dart`.
+
 ### 🎯 Challenge libre
 
 Finalmente, se te pedirá crear un pequeño componente desde cero según un comportamiento descripto (
