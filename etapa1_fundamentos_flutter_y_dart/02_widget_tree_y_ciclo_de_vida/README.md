@@ -114,3 +114,6 @@ Finalmente, se te pedirá crear un pequeño componente desde cero según un comp
 Este desafío pondrá a prueba tu capacidad de razonar sobre el widget tree, gestionar correctamente
 el estado, usar el ciclo de vida y el `BuildContext` de forma segura y efectiva.
 
+El enunciado estará descripto por separado en un archivo Markdown (challenge_libre.md), y no incluirá solución provista.
+
+
