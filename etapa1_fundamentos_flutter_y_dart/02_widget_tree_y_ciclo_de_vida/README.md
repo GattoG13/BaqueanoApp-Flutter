@@ -37,20 +37,17 @@ BuildContext.
    Introducción general al sistema de widgets de Flutter y cómo se construyen interfaces visuales.
    Punto de partida conceptual.
 
-2. 🧱 [Building Layouts in Flutter](https://docs.flutter.dev/ui/layout/tutorial)  
-   Aprende a usar `Row`, `Column`, `Container`, `Padding`, etc. para crear interfaces jerárquicas.
-
-3. 🖱️ [Add Interactivity (Flutter Official Docs)](https://docs.flutter.dev/ui/interactivity)  
+2. 🖱️ [Add Interactivity (Flutter Official Docs)](https://docs.flutter.dev/ui/interactivity)  
    Explica el uso de `StatefulWidget` para convertir una UI estática en interactiva con `setState`.
 
-4. 🎥 [How Flutter Works: The Three Trees (YouTube)](https://youtu.be/xiW3ahr4CRU?si=O2acHkKs5il7WsOV)  
+3. 🎥 [How Flutter Works: The Three Trees (YouTube)](https://youtu.be/xiW3ahr4CRU?si=O2acHkKs5il7WsOV)  
 Video esencial que explica el Widget Tree, Element Tree y Render Tree. Fundamenta el rol del
 `BuildContext`.
 
-5. n🎥 [How Flutter Works: The State Class (YouTube)](https://youtu.be/FP737UMx7ss?si=GFVCuOag2gTZn5t5)  
+4. n🎥 [How Flutter Works: The State Class (YouTube)](https://youtu.be/FP737UMx7ss?si=GFVCuOag2gTZn5t5)  
 Explicación visual del ciclo de vida de los widgets con `State`, `initState`, `dispose`, etc.
 
-6. 🔧 [What is a BuildContext? (FlutterClutter)](https://www.flutterclutter.dev/flutter/basics/what-is-a-buildcontext/2021/71268/)  
+5. 🔧 [What is a BuildContext? (FlutterClutter)](https://www.flutterclutter.dev/flutter/basics/what-is-a-buildcontext/2021/71268/)  
 Artículo accesible para comprender la función de `BuildContext` y cómo navegar el widget tree.
 
 ---
