@@ -112,8 +112,7 @@ Nombre del archivo: `diagnostico_widget_tree.dart`.
 
 ### 🎯 Challenge libre
 
-Finalmente, se te pedirá crear un pequeño componente desde cero según un comportamiento descripto (
-ej: un switch que alterna la visibilidad de un widget interactivo con estado propio).
+Finalmente, se te pedirá crear un pequeño componente desde cero según un comportamiento descripto.
 
 Este desafío pondrá a prueba tu capacidad de razonar sobre el widget tree, gestionar correctamente
 el estado, usar el ciclo de vida y el `BuildContext` de forma segura y efectiva.
