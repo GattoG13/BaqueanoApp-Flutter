@@ -49,19 +49,47 @@ En esta etapa vas a:
 ---
 
 ## 📁 Cómo está organizado este repositorio
+
 Cada fase contiene su propio directorio con:
 - Guías de lectura (`README.md`)
 - Ejercicios guiados con código base y `TODOs`
 - Challenges libres para evaluar el dominio práctico
-- Para iniciar un nuevo proyecto, se recomienda ejecutar el comando:
-  `flutter create --platforms=web,android <nombre_del_proyecto>`. Luego, reemplazá el contenido de
-  `lib/main.dart` con el código base de los ejercicios.
 
-  Recomendamos implementar en web ya que es mas sencillo de configurar pero si vas a desarrollar
-  para Android, podés configurar un emulador en tu IDE o utilizar tu propio dispositivo móvil para
-  probar la aplicación.
+---
 
-Al completar una fase, deberías sentirte cómodo aplicando esos conceptos en una app real.
+## 🧠 Recomendaciones generales y evaluación
+
+Para cualquier tipo de ejercicio, se puede buscar información adicional. La documentación oficial de
+Flutter y Dart es una excelente fuente de referencia. También se permite el uso de inteligencia artificial para resolver dudas, pero **no se recomienda abusar** de esta herramienta: el objetivo es que aprendas a resolver problemas por tu cuenta. Además, la IA puede sugerir soluciones obsoletas, incorrectas o innecesariamente complejas para problemas sencillos.
+
+Se evaluará tanto tu capacidad de resolver problemas técnicos como tu **autonomía para buscar soluciones**. Esto incluye el uso efectivo de buscadores, documentación oficial, y la consulta al referente del bootcamp cuando sea necesario. Lo importante es que demuestres iniciativa y estrategia para superar bloqueos.
+
+Los ejercicios libres serán el principal criterio de evaluación. Se analizará:
+- Cómo aplicás los nuevos conceptos
+- Tu capacidad para resolver problemas
+- Tu claridad en la implementación
+
+Se recomienda, una vez se comience a trabajar con Flutter (a partir de la Fase 1, Etapa 2), **crear un solo proyecto** donde se irán agregando todos los ejercicios y challenges de cada etapa.
+
+Por ejemplo, si tu nombre es `Juan Perez`, podés iniciar así:
+```bash
+flutter create --platforms=web,android juan_perez_flutter_bootcamp
+```
+
+> 💡 Recomendamos desarrollar en plataforma web por simplicidad de configuración. Si preferís Android, podés usar un emulador o tu dispositivo móvil conectado.
+
+
+Luego reemplazá el contenido de `lib/main.dart` con el código base de los ejercicios, y organizá cada uno dentro del directorio `lib/ejercicios/`, por ejemplo:
+```
+lib/
+├── main.dart  ← archivo principal que importa e inicializa las soluciones implementadas
+├── ejercicios/  ← aquí se agrupan todos los ejercicios del bootcamp
+│   ├── fase1_flutter_basics/
+│   │   ├── etapa1_dart_fundamentals/
+│   │   ├── etapa2_widget_tree/
+│   │   ├── etapa3_layouts/
+│   │   └── etapa4_navegacion/
+```
 
 ---
 
