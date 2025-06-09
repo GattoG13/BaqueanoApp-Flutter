@@ -103,7 +103,7 @@ void handle(AuthState state) {
 Cada vez que modifiques una clase `@freezed`, corré:
 
 ```bash
-flutter pub run build_runner build --delete-conflicting-outputs
+dart run build_runner build --delete-conflicting-outputs
 ```
 
 Para que tus cambios se reflejen en el código generado.

@@ -55,15 +55,9 @@ Construir una simulación en consola que modele una estación de temperatura usa
 
 ---
 
-## ▶️ Ejecución
+## ▶️ Recordatorio
 
 Este ejercicio se corre en consola, sin usar Flutter:
-
-```bash
-flutter pub add bloc
-```
-
-Para instalar bloc dependencies
 
 ```bash
 dart run ubicacion/del/archivo/temperature_bloc_cubit.dart

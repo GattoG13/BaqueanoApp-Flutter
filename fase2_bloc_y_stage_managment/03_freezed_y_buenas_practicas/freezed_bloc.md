@@ -89,7 +89,7 @@ class CounterBloc extends Bloc<CounterEvent, CounterState> {
 ## 🛠️ Recordatorio
 Después de definir o modificar tus clases con `freezed`, corré:
 ```bash
-flutter pub run build_runner build --delete-conflicting-outputs
+dart run build_runner build --delete-conflicting-outputs
 ```
 
 ---
