@@ -9,7 +9,7 @@ navegación y control de flujo.
 
 Construí una mini app con **dos pantallas**:
 
-### 🐶 Pantalla 1 – Registro de mascota
+### 🐶 Pantalla 1 – Registro de mascota (`RegistroMascotaScreen`)
 
 Debe contener:
 
@@ -73,12 +73,7 @@ enum TipoMascota { perro, gato, otro }
 
 ## 🧪 Cómo probar
 
-#### Notas
-
-Para el ejercicio sugerimos crear un proyecto nuevo de Flutter y remplazano el archivo `main.dart`
-con el código de cada ejercicio. Así podrás probarlo fácilmente.
-
-Utilizá un `MaterialApp` como entry point:
+Reemplaza el contenido de `main.dart` con el siguiente código para probar tu widget:
 
 ```dart
 void main() {

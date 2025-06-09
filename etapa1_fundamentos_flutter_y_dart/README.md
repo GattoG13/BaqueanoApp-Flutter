@@ -47,7 +47,7 @@ Cada módulo incluye:
 ## 🧩 Challenge integrador
 
 Al completar los 4 módulos, deberás resolver un **ejercicio integrador**: una mini aplicación que
-combine todos los conocimientos previos (Dart, estado, layout, navegación y validación).
+combine todos los conocimientos previos (Dart, estado, layout y navegación).
 
 Este desafío será clave para evaluar tu comprensión y capacidad de aplicar Flutter en un pequeño
 flujo funcional y bien estructurado.

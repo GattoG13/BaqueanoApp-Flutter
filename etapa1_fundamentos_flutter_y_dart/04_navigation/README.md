@@ -63,9 +63,6 @@ errores comunes relacionados al `BuildContext`.
 
 ## 🧪 Ejercicio práctico
 
-#### Notas
-Para el ejercicio sugerimos crear un proyecto nuevo de Flutter y remplazano el archivo `main.dart` con el código de cada ejercicio. Así podrás probarlo fácilmente.
-
 ### 🛠️ Ejercicio guiado: Selector de frutas
 
 Implementar una pantalla con una lista de frutas. Al seleccionar una, se navega a una pantalla de

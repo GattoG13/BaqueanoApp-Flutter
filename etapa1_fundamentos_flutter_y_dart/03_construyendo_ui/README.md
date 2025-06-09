@@ -65,9 +65,6 @@ Aprender a componer interfaces visuales en Flutter usando el sistema de constrai
 
 ## 🧪 Ejercicios prácticos
 
-#### Notas
-Para los dos ejercicios sugerimos crear un proyecto nuevo de Flutter y remplazano el archivo `main.dart` con el código de cada ejercicio. Así podrás probarlos fácilmente.
-
 ### 1. 🛠️ Ejercicio guiado: Tarjeta de perfil
 Construiremos una tarjeta de perfil con avatar, nombre, descripción y botones usando `Row`, `Column`, `Padding`, `SizedBox`, etc. El objetivo es practicar layout sin errores visuales y con alineación consistente.
 

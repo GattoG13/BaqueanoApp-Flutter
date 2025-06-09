@@ -71,8 +71,7 @@ Tu `State` debe manejar:
 
 ## 🧪 Cómo probar
 
-Primero crea el proyecto Flutter `flutter create mood_changer_widget` y luego reemplaza el contenido
-de `main.dart` con el siguiente código para probar tu widget:
+Reemplaza el contenido de `main.dart` con el siguiente código para probar tu widget:
 
 ```dart
 void main() {

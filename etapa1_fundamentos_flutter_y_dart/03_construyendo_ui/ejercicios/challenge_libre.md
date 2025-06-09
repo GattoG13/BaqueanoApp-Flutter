@@ -1,6 +1,6 @@
 ### 🎯 Challenge libre – Pantalla de bienvenida responsiva
 
-Construí una pantalla de bienvenida desde cero que combine correctamente elementos visuales distribuidos usando widgets de layout como `Column`, `Row`, `Expanded`, `Spacer`, `Padding` y otros.
+Construí una pantalla de bienvenida desde cero (`WelcomeScreen`) que combine correctamente elementos visuales distribuidos usando widgets de layout como `Column`, `Row`, `Expanded`, `Spacer`, `Padding` y otros.
 
 ---
 
@@ -31,7 +31,7 @@ Construí una pantalla de bienvenida desde cero que combine correctamente elemen
 
 ## 🧪 Cómo probar
 
-Usá un `MaterialApp` básico:
+Reemplaza el contenido de `main.dart` con el siguiente código para probar tu widget:
 
 ```dart
 void main() {

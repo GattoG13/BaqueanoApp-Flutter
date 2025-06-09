@@ -82,15 +82,6 @@ En el archivo `widget_challenge.dart`, se te pedirá que basandose en el un ejem
 
 4. Evitar errores comunes (ej: uso de context luego de await).
 
-Instrucciones para comenzar el ejercicio:
-
-1. Elegir un directorio de trabajo (ej:
-   `etapa1_fundamentos_flutter_y_dart/02_widget_tree_y_ciclo_de_vida/`).
-2. Ejecutar 'flutter create <nombre_del_proyecto>'. Sin '< >' y con el nombre que desees. Por
-   ejemplo: `flutter create widget_tree_challenge`.
-3. Remplazar el contenido de `lib/main.dart` con el código del ejercicio
-   `ejercicios/widget_challenge.dart`.
-
 Para este ejercicio, tienes una solucion de referencia en `solution/widget_challenge_solution.dart`.
 Puedes comparar tu implementación con la solución una vez que termines.
 
@@ -102,7 +93,7 @@ Se te presentará un ejemplo con un error común relacionado al ciclo de vida o 
 Tu objetivo será:
 
 - Identificar el error
-- Explicarlo
+- Explicarlo (Con `// comentarios` en el código)
 - Corregirlo respetando buenas prácticas
 
 Nombre del archivo: `diagnostico_widget_tree.dart`.
