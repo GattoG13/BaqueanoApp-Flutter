@@ -53,6 +53,13 @@ Cada fase contiene su propio directorio con:
 - Guías de lectura (`README.md`)
 - Ejercicios guiados con código base y `TODOs`
 - Challenges libres para evaluar el dominio práctico
+- Para iniciar un nuevo proyecto, se recomienda ejecutar el comando:
+  `flutter create --platforms=web,android <nombre_del_proyecto>`. Luego, reemplazá el contenido de
+  `lib/main.dart` con el código base de los ejercicios.
+
+  Recomendamos implementar en web ya que es mas sencillo de configurar pero si vas a desarrollar
+  para Android, podés configurar un emulador en tu IDE o utilizar tu propio dispositivo móvil para
+  probar la aplicación.
 
 Al completar una fase, deberías sentirte cómodo aplicando esos conceptos en una app real.
 
