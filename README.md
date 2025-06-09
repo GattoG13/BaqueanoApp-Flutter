@@ -69,7 +69,7 @@ Los ejercicios libres serán el principal criterio de evaluación. Se analizará
 - Tu capacidad para resolver problemas
 - Tu claridad en la implementación
 
-Se recomienda, una vez se comience a trabajar con Flutter (a partir de la Fase 1, Etapa 2), **crear un solo proyecto** donde se irán agregando todos los ejercicios y challenges de cada etapa.
+Una vez se comience a trabajar con Flutter (a partir de la Fase 1, Etapa 2), **crear un solo proyecto** donde se irán agregando todos los ejercicios y challenges de cada etapa. Este único proyecto será el entregable final al completar el bootcamp.
 
 Por ejemplo, si tu nombre es `Juan Perez`, podés iniciar así:
 ```bash
