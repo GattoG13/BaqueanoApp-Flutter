@@ -48,13 +48,38 @@ profesional.
 ---
 
 ## 💪 Habilidades adquiridas
-
 Al completar esta fase estarás preparado/a para:
-
 - Construir lógica compleja en Bloc sin acoplarla a la UI
 - Modelar correctamente los flujos de interacción del usuario
 - Usar Flutter con un enfoque declarativo y escalable
 - Seguir buenas prácticas en proyectos de mediana a gran escala
+
+---
+
+## 🛠️ Configuración de dependencias necesarias
+
+Para poder realizar los ejercicios de esta fase, debés instalar los siguientes paquetes en tu
+proyecto:
+
+```bash
+flutter pub add flutter_bloc
+flutter pub add bloc
+flutter pub add freezed_annotation
+```
+
+También será necesario agregar los paquetes de desarrollo para `build_runner` y `freezed_annotation`
+si vas a generar código:
+
+```bash
+flutter pub add dev:build_runner
+flutter pub add dev:freezed
+```
+
+Cada vez que modifiques archivos `freezed`, deberás correr:
+
+```bash
+dart run build_runner build --delete-conflicting-outputs
+```
 
 ---
 
