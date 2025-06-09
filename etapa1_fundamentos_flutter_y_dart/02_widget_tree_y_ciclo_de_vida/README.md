@@ -44,7 +44,7 @@ BuildContext.
 Video esencial que explica el Widget Tree, Element Tree y Render Tree. Fundamenta el rol del
 `BuildContext`.
 
-4. n🎥 [How Flutter Works: The State Class (YouTube)](https://youtu.be/FP737UMx7ss?si=GFVCuOag2gTZn5t5)  
+4. 🎥 [How Flutter Works: The State Class (YouTube)](https://youtu.be/FP737UMx7ss?si=GFVCuOag2gTZn5t5)  
 Explicación visual del ciclo de vida de los widgets con `State`, `initState`, `dispose`, etc.
 
 5. 🔧 [What is a BuildContext? (FlutterClutter)](https://www.flutterclutter.dev/flutter/basics/what-is-a-buildcontext/2021/71268/)  

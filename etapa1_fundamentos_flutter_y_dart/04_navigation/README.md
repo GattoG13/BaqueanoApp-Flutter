@@ -39,8 +39,7 @@ errores comunes relacionados al `BuildContext`.
 1. 📘 [Navigation and routing – Flutter Docs](https://docs.flutter.dev/ui/navigation)  
    → Introducción completa al sistema de navegación de Flutter.
 
-2.
-📚 [Cookbook: Navigate to a new screen and back](https://docs.flutter.dev/cookbook/navigation/navigation-basics)  
+2. 📚 [Cookbook: Navigate to a new screen and back](https://docs.flutter.dev/cookbook/navigation/navigation-basics)  
 → Ejemplo práctico de cómo navegar entre pantallas y volver atrás.
 
 3. 📦 [Send data to a new screen](https://docs.flutter.dev/cookbook/navigation/passing-data)  

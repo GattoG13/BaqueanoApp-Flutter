@@ -28,9 +28,6 @@ Aprender a componer interfaces visuales en Flutter usando el sistema de constrai
 - Visualizar constraints y padding/margins
 - Activar `debug paint`
 
-### 6. (Opcional) Responsividad
-- `MediaQuery`, `LayoutBuilder`, `AspectRatio`, adaptaciones simples
-
 ---
 
 ## 📎 Fuentes recomendadas
@@ -59,7 +56,6 @@ Aprender a componer interfaces visuales en Flutter usando el sistema de constrai
 - Diagnosticar problemas de diseño (overflow, invisible, mal alineado).
 - Utilizar el Flutter Inspector para visualizar el layout y los constraints.
 - Aplicar `Expanded`, `Flexible`, `Spacer` y `Align` correctamente.
-- Diseñar UI adaptable con `MediaQuery` o `LayoutBuilder` (opcional).
 
 ---
 
