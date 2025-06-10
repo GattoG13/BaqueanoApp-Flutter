@@ -11,16 +11,16 @@ responsabilidades" siguiendo los principios de Clean Architecture.
 lib/
 ├── features/
 │   └── bienvenida/
-│       ├── dominio/
-│       │   ├── entidades/
+│       ├── domain/
+│       │   ├── entities/
 │       │   │   └── mensaje_bienvenida.dart
-│       │   └── repositorios/
-│       │       └── bienvenida_repositorio.dart
-│       ├── aplicacion/
-│       │   └── obtener_mensaje.dart
-│       ├── infraestructura/
+│       │   ├── repositories/
+│       │   │   └── bienvenida_repositorio.dart
+│       │   └── use_cases/
+│       │       └── obtener_mensaje.dart
+│       ├── data/
 │       │   └── bienvenida_repositorio_impl.dart
-│       └── presentacion/
+│       └── presentation/
 │           └── mensaje_widget.dart
 └── main.dart
 ```
@@ -29,22 +29,20 @@ lib/
 
 ## 🧠 Explicación por archivo
 
-### dominio/
+### domain/
 
 - `mensaje_bienvenida.dart`: define una entidad pura que representa el mensaje.
 - `bienvenida_repositorio.dart`: interfaz abstracta del repositorio, usada por el caso de uso.
-
-### aplicacion/
-
 - `obtener_mensaje.dart`: caso de uso que representa la lógica de negocio para obtener el mensaje.
   Depende de la interfaz del repositorio.
 
-### infraestructura/
+
+### data/
 
 - `bienvenida_repositorio_impl.dart`: implementación del repositorio que retorna una instancia de
   `MensajeBienvenida`. Depende del dominio (a través de la interfaz).
 
-### presentacion/
+### presentation/
 
 - `mensaje_widget.dart`: widget que muestra el mensaje recibido.
 

@@ -50,7 +50,7 @@ funciona al ejecutarse si se acopla a un proyecto Flutter.
       `infraestructura`.
     - Ubicar cada archivo en la capa correspondiente.
 
-2. **Restructurar el codigo** como sea necesario para segir la arquitectura:
+2. **Restructurar el codigo** como sea necesario para segir la arquitectura clean
 
 3. **Verificar que la aplicación sigue funcionando** sin romper la lógica ya implementada.
 
