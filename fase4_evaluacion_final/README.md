@@ -28,23 +28,37 @@ una herramienta que permite al agricultor:
 ## 🧱 Requisitos técnicos obligatorios
 
 - Seguir la **estructura de Clean Architecture adaptada**:
-    - `presentation/`, `application/`, `domain/`, `infrastructure/`
-    - Todas las carpetas deben estar organizadas dentro de `features/huerta_inteligente/`
+  - `presentation/`, `application/`, `domain/`, `infrastructure/`
+  - Todas las carpetas deben estar organizadas dentro de `features/huerta_inteligente/`
 
 - Modelar una entidad `Cultivo` que contenga al menos:
-    - `nombre: String`
-    - `fechaSiembra: DateTime`
-    - `cosechado: bool`
+  - `nombre: String`
+  - `fechaSiembra: DateTime`
+  - `cosechado: bool`
 
 - Separar claramente las responsabilidades:
-    - `application/`: Cubit/Bloc que maneje el estado
-    - `domain/`: entidad `Cultivo`, repositorio abstracto, y lógica de negocio
-    - `infrastructure/`: implementación del repositorio en memoria
-    - `presentation/`: UI con al menos un formulario y una lista
+  - `application/`: Cubit/Bloc que maneje el estado
+  - `domain/`: entidad `Cultivo`, repositorio abstracto, y lógica de negocio
+  - `infrastructure/`: implementación del repositorio en memoria
+  - `presentation/`: UI con al menos un formulario y una lista
 
 - Usar `Bloc` o `Cubit` para manejar el estado
 - Usar `freezed` para modelar los estados del Bloc/Cubit y/o eventos
 - Usar `injectable` para la inyección de dependencias
+
+---
+
+## 📐 Legibilidad y buenas prácticas
+
+Un criterio fundamental de evaluación será la **legibilidad del código**. Asegurate de:
+
+- Seguir prácticas de *Clean Code*.
+- Usar nombres descriptivos para variables, métodos y clases.
+- Agregar comentarios donde sea necesario para explicar decisiones o partes importantes.
+- Escribir tu código pensando que otra persona lo tendrá que leer y mantener dentro de unos meses.
+
+La claridad en la estructura, nomenclatura y modularidad será tan importante como la funcionalidad
+en sí.
 
 ---
 
@@ -68,8 +82,7 @@ lib/
 
 ## 🧠 Opcionales (no obligatorios)
 
-Si querés ir un paso más allá, podés incluir alguno de estos extras (o algun otro que te parezca
-interesante):
+Si querés ir un paso más allá, podés incluir alguno de estos extras:
 
 - Simular persistencia local usando `SharedPreferences` u otro package.
 - Separar la UI en múltiples pantallas.
@@ -77,13 +90,12 @@ interesante):
 - Escribir un test unitario para la lógica del dominio.
 
 ⚠️ **IMPORTANTE**:
-
 - Estos puntos son 100% **opcionales** y **no se espera que estén presentes**.
 - Si decidís implementarlos, se valorará tu iniciativa y autonomía, **pero no se evaluará que estén
   100% funcionales o correctos**.
 - Si necesitás modificar la lógica para hacer algo opcional, por favor:
-    - **No sustituyas** los requisitos obligatorios.
-    - Usá clases alternativas o comentarios para explicar qué harías diferente.
+  - **No rompas** los requisitos obligatorios.
+  - Usá clases alternativas o comentarios para explicar qué harías diferente.
 
 ---
 
