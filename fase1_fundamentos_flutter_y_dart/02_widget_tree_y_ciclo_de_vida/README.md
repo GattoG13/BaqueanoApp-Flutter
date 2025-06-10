@@ -98,7 +98,7 @@ Tu objetivo será:
 
 Nombre del archivo: `diagnostico_widget_tree.dart`.
 
-### 🎯 Challenge libre
+### 🎯 Challenge libre (Opcional, pero recomendado)
 
 Finalmente, se te pedirá crear un pequeño componente desde cero según un comportamiento descripto.
 

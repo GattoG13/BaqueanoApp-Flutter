@@ -59,8 +59,9 @@ Al completar esta fase estarás preparado/a para:
 ## 🛠️ Configuración de dependencias necesarias
 
 Para poder realizar los ejercicios de esta fase, debés instalar los siguientes paquetes en tu
-proyecto:
+proyecto (la explicación del uso de cada uno se encuentra en las lecturas):
 
+En la terminal de tu proyecto Flutter, ejecutá:
 ```bash
 flutter pub add flutter_bloc
 flutter pub add bloc

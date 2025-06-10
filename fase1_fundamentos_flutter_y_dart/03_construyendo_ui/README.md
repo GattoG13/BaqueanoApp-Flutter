@@ -72,7 +72,7 @@ Este ejercicio incluirá:
 Se puede ver una vista final posible en el archivo `ejercicios/visual_layout_profile_card.png`.
 Archivo de comienzo: `ejercicios/layout_profile_card.dart`
 
-### 2. 🎨 Challenge libre: Composición de layout responsiva
+### 2. 🎨 Challenge libre: Composición de layout responsiva (Opcional, pero recomendado)
 Se te pedirá diseñar una interfaz de tipo "pantalla de bienvenida" con imagen, texto, y botones de acción, respetando principios de layout flexible, alineación y constraints.
 
 El enunciado estará descripto por separado en un archivo Markdown (challenge_libre.md), y no incluirá solución provista.

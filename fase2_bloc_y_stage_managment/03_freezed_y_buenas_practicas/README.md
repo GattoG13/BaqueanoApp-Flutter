@@ -16,7 +16,7 @@ Esta etapa está diseñada para consolidar todos los conceptos aprendidos en Blo
 
 - 📘 [`freezed_explanation.md`](./freezed_explanation.md): Introducción a `freezed`, cómo declarar clases inmutables y selladas, y qué código genera automáticamente.
 - 📘 [`freezed_bloc.md`](./freezed_bloc.md): Comparación entre Bloc clásico y Bloc usando `freezed`. Ejemplo de modernización de eventos y estados.
-- 🧪 [`ejemplos/ejemplo_freezed_bloc.dart`](./ejemplos/ejemplo_freezed_bloc.dart): Implementación completa de un Bloc usando `freezed`, ideal como referencia o base de nuevos Blocs.
+- 🧪 [`ejemplos/ejemplo_freezed_bloc.dart`](./ejemplo/ejemplo_freezed_bloc.dart): Implementación completa de un Bloc usando `freezed`, ideal como referencia o base de nuevos Blocs.
 
 ---
 

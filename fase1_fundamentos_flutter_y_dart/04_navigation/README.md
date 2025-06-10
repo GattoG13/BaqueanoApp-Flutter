@@ -69,6 +69,7 @@ detalle donde se puede confirmar o cancelar la selección. El resultado se muest
 pantalla anterior. Incluirá código base con `TODOs` y solución aparte.
 
 El ejercicio se puede encontrar en el archivo `ejercicios/fruit_selector_nav.dart`.
+La solución de referencia está en `ejercicios/solution/fruit_selector_nav_solution.dart`.
 
 ---
 
