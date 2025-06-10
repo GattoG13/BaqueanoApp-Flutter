@@ -19,7 +19,8 @@ para verificar que todo esté correctamente configurado.
 ---
 
 ## 🧭 Estructura del Bootcamp
-El bootcamp se divide en **3 fases principales**, cada una enfocada en un área fundamental del desarrollo con Flutter:
+
+El bootcamp se divide en **3 fases principales** más una evaluación final integradora:
 
 ### 1. 🧱 Flutter & Dart Basics
 > Introducción al lenguaje Dart, ciclo de vida de widgets, diseño de interfaces visuales y navegación entre pantallas.
@@ -37,59 +38,81 @@ En esta etapa vas a:
 - Comprender eventos, estados y transiciones
 - Integrar Bloc en una app real
 - Conectar lógica de negocios con la UI de forma reactiva
+- Utilizar freezed para modelado de estados/eventos
 
 ### 3. 🧼 Clean Architecture
 > Organización del código siguiendo principios de arquitectura limpia: separación de responsabilidades, escalabilidad y mantenibilidad.
 
 En esta etapa vas a:
-- Dividir el proyecto en capas: Presentación, Aplicación, Dominio y Datos
-- Aplicar principios de SOLID
-- Crear módulos testeables y reutilizables
+
+- Comprender la arquitectura adaptada utilizada en BaqueanoApp
+- Aplicar separación de capas: Presentación, Aplicación, Dominio e Infraestructura
+- Implementar inyección de dependencias con `injectable`
+- Consolidar tu conocimiento en un desafío de arquitectura modularizada
+
+### 4. ✅ Evaluación final integradora
+
+> En esta última parte aplicarás todos los conceptos aprendidos en un proyecto completo con una
+> funcionalidad propuesta realista.
 
 ---
 
-## 📁 Cómo está organizado este repositorio
+## 📁 Organización del repositorio
 
 Cada fase contiene su propio directorio con:
 - Guías de lectura (`README.md`)
-- Ejercicios guiados con código base y `TODOs`
-- Challenges libres para evaluar el dominio práctico
+- Ejercicios guiados con código base y comentarios `TODO`
+- Challenges integradores para evaluar el dominio de la etapa
+
+Una vez se comience a trabajar con Flutter (a partir de la Fase 1, Etapa 2), deberás **crear un solo
+proyecto** en el que agregarás los ejercicios integradores de cada etapa y el desafío final. Los
+ejercicios intermedios pueden ser realizados en archivos sueltos o descartables.
+
+Este proyecto será el **único entregable** y debe estar organizado según los desafíos integradores
+evaluados.
+
+### 📦 Estructura sugerida del proyecto
+
+```bash
+lib/
+├── main.dart                  ← archivo principal que importa e inicializa las soluciones implementadas
+├── features/
+│   ├── integrador_fase1/      ← solución del challenge integrador de Fase 1
+│   ├── integrador_fase2/      ← solución del challenge integrador de Fase 2
+│   ├── integrador_fase3/      ← solución del challenge integrador de Fase 3
+│   └── evaluacion_final/      ← solución del proyecto final integrador
+```
+
+> 💡 Recomendamos desarrollar en plataforma web por simplicidad de configuración. Si preferís
+> Android, podés usar un emulador o tu dispositivo móvil conectado.
 
 ---
 
-## 🧠 Recomendaciones generales y evaluación
+## 📐 Buenas prácticas de legibilidad
 
-Para cualquier tipo de ejercicio, se puede buscar información adicional. La documentación oficial de
-Flutter y Dart es una excelente fuente de referencia. También se permite el uso de inteligencia artificial para resolver dudas, pero **no se recomienda abusar** de esta herramienta: el objetivo es que aprendas a resolver problemas por tu cuenta. Además, la IA puede sugerir soluciones obsoletas, incorrectas o innecesariamente complejas para problemas sencillos.
+Durante todo el Bootcamp, se evaluará de forma transversal la **legibilidad y calidad del código**.
+Esto incluye:
 
-Se evaluará tanto tu capacidad de resolver problemas técnicos como tu **autonomía para buscar soluciones**. Esto incluye el uso efectivo de buscadores, documentación oficial, y la consulta al referente del bootcamp cuando sea necesario. Lo importante es que demuestres iniciativa y estrategia para superar bloqueos.
+- Nombres claros y significativos para clases, variables y métodos
+- Comentarios cuando sea necesario para entender la intención
+- Separación de responsabilidades
+- Código limpio, evitando duplicación o lógica innecesaria
 
-Los ejercicios libres serán el principal criterio de evaluación. Se analizará:
-- Cómo aplicás los nuevos conceptos
-- Tu capacidad para resolver problemas
-- Tu claridad en la implementación
+📌 Escribí tu código como si otra persona tuviera que mantenerlo en 3 meses. Esto es tan importante
+como que el código funcione.
 
-Una vez se comience a trabajar con Flutter (a partir de la Fase 1, Etapa 2), **crear un solo proyecto** donde se irán agregando todos los ejercicios y challenges de cada etapa. Este único proyecto será el entregable final al completar el bootcamp.
+---
 
-Por ejemplo, si tu nombre es `Juan Perez`, podés iniciar así:
-```bash
-flutter create --platforms=web,android juan_perez_flutter_bootcamp
-```
+## 🧠 Evaluación y criterios
 
-> 💡 Recomendamos desarrollar en plataforma web por simplicidad de configuración. Si preferís Android, podés usar un emulador o tu dispositivo móvil conectado.
+Lo que se evaluará al finalizar el Bootcamp será:
 
+- Los **challenges integradores** de cada fase (uno por fase, tres en total)
+- El **proyecto final integrador**
+- El **progreso general** durante el Bootcamp
 
-Luego reemplazá el contenido de `lib/main.dart` con el código base de los ejercicios, y organizá cada uno dentro del directorio `lib/ejercicios/`, por ejemplo:
-```
-lib/
-├── main.dart  ← archivo principal que importa e inicializa las soluciones implementadas
-├── ejercicios/  ← aquí se agrupan todos los ejercicios del bootcamp
-│   ├── fase1_flutter_basics/
-│   │   ├── etapa1_dart_fundamentals/
-│   │   ├── etapa2_widget_tree/
-│   │   ├── etapa3_layouts/
-│   │   └── etapa4_navegacion/
-```
+La corrección no se enfocará solamente en el resultado final, sino en el proceso, la autonomía para
+investigar, la aplicación correcta de los conceptos aprendidos y la claridad del código.
 
 ---
 
