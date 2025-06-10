@@ -82,6 +82,4 @@ lib/
 
 Esta estructura modularizada permite trabajar en equipos, reutilizar lógica, y facilitar tests, especialmente cuando se aplica junto a `freezed`, `bloc`, y herramientas como `get_it` para inyección de dependencias.
 
-👉 Para conocer cómo usamos `GetIt` e `injectable` en BaqueanoApp, consultá el archivo [`injeccion_dependencias_injectable.md`](./injeccion_dependencias_injectable.md).
-
-👉 En la siguiente etapa aplicaremos esta arquitectura para realizar un **desafío integrador realista**.
+👉 En la siguiente etapa vas a conocer qué es `GetIt` e `injectable` y cómo lo usamos en BaqueanoApp.
