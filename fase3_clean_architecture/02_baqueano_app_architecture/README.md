@@ -23,7 +23,7 @@ Esta capa es consumida por Application y define los contratos para Infrastructur
 ### 3. **Infrastructure**
 Es el equivalente a la capa de datos. Contiene:
 
-- **repositories/**: Implementaciones concretas de las interfaces definidas en Domain. Por ejemplo, acceso a Firestore o APIs.
+- **repositories/**: Implementaciones concretas de las interfaces definidas en Domain. Por ejemplo, acceso a bases de datos o APIs.
 - **dtos/**: Data Transfer Objects, que actúan como adaptadores entre la representación de datos (e.g. JSON) y las entidades del dominio.
 
 ### 4. **Presentation**
@@ -42,7 +42,7 @@ Para clarificar el paralelismo entre esta versión adaptada y la Clean Architect
 |--------------------------|--------------------------------------------------------|
 | Presentation             | Presentation                                           |
 | Application              | Presentation -> Presentation Logic Holder (e.g., Bloc) |
-| Domain -> Services       | Use Cases                                              |
+| Domain -> Services       | Domain -> Use Cases                                    |
 | Domain -> Entities       | Domain -> Entities                                     |
 | Infrastructure           | Data Layer (DTOs, Repository Implementations)          |
 
