@@ -116,5 +116,5 @@ investigar, la aplicación correcta de los conceptos aprendidos y la claridad de
 
 ---
 
-¡Mucho éxito!
-Este bootcamp está pensado para acompañarte en tus primeros pasos dentro de BaqueanoApp y ayudarte a crecer como desarrollador/a Flutter 🚜✨
+¡Mucho éxito! 
+Este bootcamp está pensado para acompañarte en tus primeros pasos dentro de Flutter aplicado a proyectos reales como lo es BaqueanoApp 🚜✨
