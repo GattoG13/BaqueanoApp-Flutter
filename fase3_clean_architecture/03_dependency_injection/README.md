@@ -1,7 +1,6 @@
 # 🧩 Guía avanzada sobre Inyección de Dependencias con `injectable` y `GetIt`
 
-En **BaqueanoApp** utilizamos `GetIt` junto al paquete `injectable` para manejar la inyección de
-dependencias de forma clara, desacoplada y escalable. Esta guía explicará:
+En **BaqueanoApp** utilizamos `GetIt` junto al paquete `injectable` para manejar la inyección de dependencias de forma clara, desacoplada y escalable. Esta guía explicará:
 
 - Qué problema resuelve la inyección de dependencias.
 - Ventajas de usar `injectable` en relación a principios SOLID.
@@ -11,8 +10,7 @@ dependencias de forma clara, desacoplada y escalable. Esta guía explicará:
 
 ## 🚧 ¿Qué es la Inyección de Dependencias?
 
-La inyección de dependencias es un patrón que permite desacoplar componentes del sistema, evitando
-que dependan directamente de implementaciones concretas.
+La inyección de dependencias es un patrón que permite desacoplar componentes del sistema, evitando que dependan directamente de implementaciones concretas.
 
 ### Sin inyección (acoplamiento fuerte):
 
@@ -29,7 +27,6 @@ class AnimalCubit {
 ```dart
 class AnimalCubit {
   AnimalCubit(this.repo);
-
   final AnimalRepository repo;
 }
 ```
@@ -51,7 +48,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   MyApp(this.cubit);
-
   final AnimalCubit cubit;
 
   @override
@@ -114,7 +110,6 @@ flutter pub run build_runner build --delete-conflicting-outputs
 ## 🏷️ Anotaciones principales
 
 ### ✅ `@injectable`
-
 Crea una nueva instancia cada vez que se necesita:
 
 ```dart
@@ -126,7 +121,6 @@ class AnimalService {
 ```
 
 ### ✅ `@singleton`
-
 Una única instancia global, creada al iniciar:
 
 ```dart
@@ -135,7 +129,6 @@ class ApiClient {}
 ```
 
 ### ✅ `@lazySingleton`
-
 Una única instancia creada la primera vez que se usa:
 
 ```dart
@@ -150,13 +143,8 @@ class Logger {}
 ### Sin `injectable`:
 ```dart
 final getIt = GetIt.instance;
-getIt.registerLazySingleton<AnimalRepository>
-(
-() => AnimalRepositoryImpl());
-getIt.registerFactory(() => AnimalCubit(getIt<AnimalRepository>(
-)
-)
-);
+getIt.registerLazySingleton<AnimalRepository>(() => AnimalRepositoryImpl());
+getIt.registerFactory(() => AnimalCubit(getIt<AnimalRepository>()));
 ```
 
 ### Con `injectable`:
@@ -236,6 +224,4 @@ final cubit = getIt<AnimalCubit>();
 
 ---
 
-🚀 **Conclusión:** Usar `injectable` junto a `GetIt` simplifica notablemente la gestión de
-dependencias, facilitando un código más limpio, escalable, mantenible y alineado a buenas
-prácticas (SOLID y Clean Code).
+🚀 **Conclusión:** Usar `injectable` junto a `GetIt` simplifica notablemente la gestión de dependencias, facilitando un código más limpio, escalable, mantenible y alineado a buenas prácticas (SOLID y Clean Code).
