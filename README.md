@@ -1,6 +1,7 @@
 # 🐮 Bootcamp Baqueano – Introducción al Desarrollo con Flutter
 
-Bienvenido/a al Bootcamp de ingreso para el equipo de desarrollo de **BaqueanoApp**. Este repositorio tiene como objetivo nivelar y evaluar conocimientos clave para trabajar con Flutter y el stack tecnológico utilizado en el proyecto.
+Bienvenido/a al Bootcamp.
+Este repositorio tiene como objetivo nivelar y evaluar conocimientos clave para trabajar con Flutter y el stack tecnológico utilizado en algunos proyectos de BQN.
 
 ---
 
