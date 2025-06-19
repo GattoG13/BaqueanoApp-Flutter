@@ -21,27 +21,67 @@
 
 import 'dart:async';
 
-//TODO: Declara una excepción custom llamada InvalidUsernameException que extienda Exception.
+class InvalidUsernameException implements Exception {
+  final String message;
+  InvalidUsernameException([this.message = 'Invalid username']);
 
-//TODO: Declara un enum UserRole con dos valores: admin y normal.
-
-//TODO: Declara una clase Usuario con las propiedades: name (String), age (int), hobbies (List<String>), role (UserRole).
-
-
-/// Simula una consulta asincrónica a una base de datos ficticia.
-Future<Usuario> getUserProfile(String username) async {
-  // TODO: Verifica que el username no sea vacío. Si lo es, lanza InvalidUsernameException.
-
-  // TODO: Simula un delay de red usando Future.delayed.
-
-  // TODO: Determina el rol según el username.
-
-  // TODO: Crea y retorna un Usuario ficticio.
+  @override
+  String toString() => 'InvalidUsernameException: $message';
 }
 
-/// Calcula el salario según el rol del usuario. Usa null safety en bonus.
+enum UserRole {
+  admin,
+  normal,
+}
+
+class Usuario {
+  final String name;
+  final int age;
+  final List<String> hobbies;
+  final UserRole role;
+
+  Usuario({
+    required this.name,
+    required this.age,
+    required this.hobbies,
+    required this.role,
+  });
+}
+
+Future<Usuario> getUserProfile(String username) async {
+  // 1. Verificar que el username no sea vacío
+  if (username.trim().isEmpty) {
+    throw InvalidUsernameException();
+  }
+
+  // 2. Simular un delay como si consultáramos una base de datos
+  await Future.delayed(Duration(milliseconds: 500));
+
+  // 3. Determinar edad según nombre
+  int age = username.toLowerCase() == 'admin' ? 40 : 24;
+
+  // 4. Determinar el rol
+  UserRole role = username.toLowerCase() == 'admin' ? UserRole.admin : UserRole.normal;
+
+  // 5. Crear lista de hobbies (por ahora hardcodeado)
+  List<String> hobbies = ['leer', 'programar'];
+
+  // 6. Retornar el usuario
+  return Usuario(
+    name: username,
+    age: age,
+    hobbies: hobbies,
+    role: role,
+  );
+}
+
 int calculateSalary(Usuario user) {
-  //TODO: Usa algun switch para evaluar el rol del usuario y calcular el salario.
+  switch (user.role) {
+    case UserRole.admin:
+      return user.age * 1000;
+    case UserRole.normal:
+      return user.age * 500;
+  }
 }
 
 void main() async {

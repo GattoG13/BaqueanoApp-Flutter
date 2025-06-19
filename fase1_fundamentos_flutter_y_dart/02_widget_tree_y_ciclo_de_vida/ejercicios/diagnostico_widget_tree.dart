@@ -21,21 +21,24 @@ class DiagnosticPage extends StatefulWidget {
 class _DiagnosticPageState extends State<DiagnosticPage> {
   bool _loading = false;
 
-  Future<void> _simulateAsyncAction() async {
-    setState(() {
-      _loading = true;
-    });
+Future<void> _simulateAsyncAction() async {
+  setState(() {
+    _loading = true;
+  });
 
-    await Future.delayed(const Duration(seconds: 3));
+  await Future.delayed(const Duration(seconds: 3));
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('¡Operación completada!')),
-    );
+  if (!mounted) return;
 
-    setState(() {
-      _loading = false;
-    });
-  }
+  ScaffoldMessenger.of(context).showSnackBar(
+    const SnackBar(content: Text('¡Operación completada!')),
+  );
+
+  setState(() {
+    _loading = false;
+  });
+}
+
 
   @override
   Widget build(BuildContext context) {
