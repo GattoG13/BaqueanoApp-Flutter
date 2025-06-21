@@ -66,3 +66,5 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
 ¡Mucho éxito! Este desafío consolidará tu comprensión de una arquitectura profesional real usada en
 Flutter. 🚀
+
+

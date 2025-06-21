@@ -3,9 +3,11 @@ import 'package:bloc/bloc.dart';
 
 // ========== CUBIT IMPLEMENTATION ==========
 
-// TODO(1): Implementar TemperatureCubit
 class TemperatureCubit extends Cubit<double> {
-  // Debe iniciar en 20.0 y exponer métodos increase() y decrease()
+  TemperatureCubit() : super(20.0); // estado inicial: 20.0
+
+  void increase() => emit(state + 1);
+  void decrease() => emit(state - 1);
 }
 
 // ========== BLOC IMPLEMENTATION ==========
@@ -16,9 +18,11 @@ class IncreaseTemp extends TemperatureEvent {}
 
 class DecreaseTemp extends TemperatureEvent {}
 
-// TODO(2): Implementar TemperatureBloc
 class TemperatureBloc extends Bloc<TemperatureEvent, double> {
-  // Debe manejar IncreaseTemp y DecreaseTemp usando on<Event>() y emitir el nuevo estado
+  TemperatureBloc() : super(20.0) {
+    on<IncreaseTemp>((event, emit) => emit(state + 1));
+    on<DecreaseTemp>((event, emit) => emit(state - 1));
+  }
 }
 
 
