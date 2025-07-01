@@ -3,6 +3,8 @@
 Desarrollado por **Gian Franco**  
 Repositorio personal con la resolución completa de cada fase del proceso de selección de BaqueanoApp.
 
+review app: ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/reviews?style=flat)
+
 ---
 
 ## 📁 Índice de Fases
